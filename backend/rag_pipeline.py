@@ -1,14 +1,10 @@
 import os
 from typing import List
 
-# Ensure the model can be downloaded on fresh cloud instances
-os.environ.setdefault("HUGGINGFACE_HUB_OFFLINE", "0")
-os.environ.setdefault("TRANSFORMERS_OFFLINE", "0")
-
 import sys
 if "linux" in sys.platform:
-    __import__('pysqlite3')
-    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+    import pysqlite3
+    sys.modules['sqlite3'] = pysqlite3
 
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
@@ -31,6 +27,8 @@ class RAGPipeline:
             self._available = True
         except Exception as e:
             print(f"[RAG] ChromaDB init failed: {e}")
+            import streamlit as st
+            st.error(f"ChromaDB init failed: {str(e)}")
             self._available = False
             self.cols = {}
 

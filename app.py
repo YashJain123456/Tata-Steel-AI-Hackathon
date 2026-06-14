@@ -135,8 +135,11 @@ with st.sidebar:
         )
         if st.button("🔄 Init Knowledge Base", use_container_width=True):
             with st.spinner("Loading..."):
-                from setup_kb import initialize_kb
-                initialize_kb(rag)
+                try:
+                    from setup_kb import initialize_kb
+                    initialize_kb(rag)
+                except Exception as e:
+                    st.error(f"Setup KB failed: {str(e)}")
             st.rerun()
 
     from backend.feedback_store import FeedbackStore
