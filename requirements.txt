@@ -3,6 +3,11 @@ langchain
 langchain-community
 chromadb
 sentence-transformers
+streamlit
+langchain
+langchain-community
+chromadb
+sentence-transformers
 scikit-learn
 pandas
 numpy
@@ -12,3 +17,4 @@ faker
 pypdf
 requests
 protobuf<4.21.0
+pysqlite3-binary
