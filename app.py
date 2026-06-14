@@ -108,6 +108,7 @@ with st.sidebar:
         ["Engineer", "Supervisor", "Admin"],
         index=["Engineer", "Supervisor", "Admin"].index(st.session_state.role),
     )
+    auto_refresh = st.checkbox("🔄 Auto-refresh (15 s)", value=True)
 
     from backend.rag_pipeline import RAGPipeline
     @st.cache_resource
@@ -323,3 +324,9 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True,
 )
+
+# ── Auto-refresh ──────────────────────────────────────────────────────────────
+import time
+if auto_refresh:
+    time.sleep(15)
+    st.rerun()
