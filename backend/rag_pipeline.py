@@ -1,9 +1,9 @@
 import os
 from typing import List
 
-# Use the locally-cached model — avoids SSL errors on corporate proxies
-os.environ.setdefault("HUGGINGFACE_HUB_OFFLINE", "1")
-os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+# Ensure the model can be downloaded on fresh cloud instances
+os.environ.setdefault("HUGGINGFACE_HUB_OFFLINE", "0")
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "0")
 
 import sys
 if "linux" in sys.platform:
