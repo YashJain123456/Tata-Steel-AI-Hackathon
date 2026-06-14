@@ -1,0 +1,276 @@
+STEELGUARD AI — SPARE PARTS INVENTORY MASTER LIST
+Integrated Steel Plant — Stores & Procurement Department
+Last Updated: 2026 | SAP MM Module Reference
+
+================================================================================
+ROLLING MILL SPARE PARTS
+================================================================================
+
+PART: Work Roll (Forged HSS, 700mm dia × 1800mm face)
+  SAP Code: RM-WR-001
+  Availability: Out of Stock
+  Lead Time: 45 days (Japan supplier — Nippon Roll Co.)
+  Unit Cost: ₹28,00,000
+  Criticality: CRITICAL
+  Min Stock Level: 2 sets
+  Current Stock: 0 sets
+  Note: Long lead time — raise PO immediately when stock falls to 1 set
+  Supplier: Nippon Roll Co. Ltd., Osaka | Alt: Sheffield Forgemasters UK
+
+PART: Back-up Roll (Forged Cast Iron, 1400mm dia × 1800mm face)
+  SAP Code: RM-BUR-001
+  Availability: Out of Stock
+  Lead Time: 60 days
+  Unit Cost: ₹65,00,000
+  Criticality: CRITICAL
+  Min Stock Level: 1 set
+  Current Stock: 0 sets
+  Note: Critical — urgent procurement required
+
+PART: Drive Shaft (Universal joint, alloy steel, 2.5m)
+  SAP Code: RM-DS-001
+  Availability: Low Stock (2 units)
+  Lead Time: 7 days (domestic)
+  Unit Cost: ₹3,50,000
+  Criticality: CRITICAL
+  Min Stock Level: 4 units
+
+PART: Bearing SKF 22230 E/C3 (Spherical roller, 150×270×73mm)
+  SAP Code: RM-BRG-022230
+  Availability: In Stock (12 units)
+  Lead Time: 0 days
+  Unit Cost: ₹45,000
+  Criticality: HIGH
+  Min Stock Level: 8 units
+
+PART: Mill Housing Liner (Mn-Steel, 500×300×30mm)
+  SAP Code: RM-LNR-001
+  Availability: Low Stock (1 unit)
+  Lead Time: 30 days
+  Unit Cost: ₹1,20,000
+  Criticality: HIGH
+  Note: Inspect at every roll change; replace if wear >2mm
+
+PART: Gear Box Seal Kit (NBR seals, O-rings, gaskets)
+  SAP Code: RM-GBX-SK01
+  Availability: In Stock (5 kits)
+  Lead Time: 0 days
+  Unit Cost: ₹12,000
+  Criticality: MEDIUM
+
+PART: Hydraulic Cylinder Seal Kit (Roll force cylinder)
+  SAP Code: RM-HYD-SK01
+  Availability: In Stock (8 kits)
+  Lead Time: 0 days
+  Unit Cost: ₹8,500
+  Criticality: MEDIUM
+
+================================================================================
+BLAST FURNACE SPARE PARTS
+================================================================================
+
+PART: Tuyere Assembly (Copper, cooled, 110mm bore)
+  SAP Code: BF-TUY-001
+  Availability: In Stock (8 units)
+  Lead Time: 0 days
+  Unit Cost: ₹2,80,000
+  Criticality: CRITICAL
+  Min Stock Level: 6 units (28 tuyeres total in furnace)
+
+PART: Cooler Panel — Copper (Stave cooler, bosh zone, 600×400mm)
+  SAP Code: BF-CPL-001
+  Availability: Low Stock (1 unit)
+  Lead Time: 30 days (Germany — Lürgi GmbH)
+  Unit Cost: ₹18,00,000
+  Criticality: CRITICAL
+  Note: Urgently order 3 more units
+
+PART: Tap Hole Clay Gun Tip
+  SAP Code: BF-TCG-001
+  Availability: In Stock (24 tips)
+  Lead Time: 0 days
+  Unit Cost: ₹3,500
+  Criticality: HIGH
+  Min Stock Level: 20 units (use 1–2 per cast)
+
+PART: Blowpipe Assembly (complete with elbow)
+  SAP Code: BF-BLP-001
+  Availability: In Stock (4 units)
+  Lead Time: 0 days
+  Unit Cost: ₹1,50,000
+  Criticality: HIGH
+
+PART: Blast Valve Seat (DN400, stainless steel)
+  SAP Code: BF-BVS-001
+  Availability: Out of Stock
+  Lead Time: 21 days
+  Unit Cost: ₹85,000
+  Criticality: HIGH
+  Note: Order immediately — 2 valves showing wear
+
+================================================================================
+CONTINUOUS CASTER SPARE PARTS
+================================================================================
+
+PART: Mold Copper Plate (Wide face, 250mm × 2000mm, Ag-Cu alloy)
+  SAP Code: CCM-MCP-001
+  Availability: Low Stock (2 units)
+  Lead Time: 21 days (Austria — Primetals Technologies)
+  Unit Cost: ₹22,00,000
+  Criticality: CRITICAL
+  Note: Replace at 3mm wear; current service life ~150 heats
+
+PART: Segment Roll Assembly (Complete segment, 900mm width)
+  SAP Code: CCM-SEG-001
+  Availability: Out of Stock
+  Lead Time: 45 days
+  Unit Cost: ₹35,00,000
+  Criticality: CRITICAL
+  Note: 2 segments in repair workshop — ETA 2 weeks
+
+PART: Submerged Entry Nozzle — SEN (ZrO2-graphite, 150mm dia)
+  SAP Code: CCM-SEN-001
+  Availability: In Stock (40 units)
+  Lead Time: 0 days
+  Unit Cost: ₹18,000
+  Criticality: HIGH
+  Min Stock Level: 30 units (1 per heat average)
+
+PART: Strand Guide Roll Bearing (FAG 22326-E1-XL)
+  SAP Code: CCM-BRG-22326
+  Availability: In Stock (16 units)
+  Lead Time: 0 days
+  Unit Cost: ₹28,000
+  Criticality: HIGH
+
+PART: Mold Oscillation Pin (Stainless steel, 40mm dia × 250mm)
+  SAP Code: CCM-OPN-001
+  Availability: In Stock (8 units)
+  Lead Time: 0 days
+  Unit Cost: ₹4,200
+  Criticality: MEDIUM
+
+================================================================================
+HYDRAULIC SYSTEM SPARE PARTS
+================================================================================
+
+PART: Hydraulic Pump HPR-130 (Parker, variable piston, 130 cc/rev)
+  SAP Code: HYD-PMP-130
+  Availability: In Stock (2 units)
+  Lead Time: 0 days
+  Unit Cost: ₹12,00,000
+  Criticality: CRITICAL
+  Min Stock Level: 1 unit
+
+PART: Proportional Valve (Bosch Rexroth 4WRPH10)
+  SAP Code: HYD-PVL-4WRPH
+  Availability: Low Stock (1 unit)
+  Lead Time: 21 days (Germany)
+  Unit Cost: ₹3,50,000
+  Criticality: HIGH
+  Note: Order 2 more — used in critical roll force control
+
+PART: High-Pressure Filter Element (Hydac 0660R010BN4HC)
+  SAP Code: HYD-FLT-660R
+  Availability: In Stock (20 units)
+  Lead Time: 0 days
+  Unit Cost: ₹4,500
+  Criticality: MEDIUM
+  Note: Change every 2000 hours or at ΔP >3.5 bar
+
+PART: Cylinder Seal Kit (Parker, for 250mm bore cylinder)
+  SAP Code: HYD-CSK-250
+  Availability: In Stock (6 kits)
+  Lead Time: 0 days
+  Unit Cost: ₹9,500
+  Criticality: MEDIUM
+
+PART: Pressure Relief Valve (Bosch Rexroth DBDS 20, 350 bar)
+  SAP Code: HYD-PRV-DBDS20
+  Availability: In Stock (4 units)
+  Lead Time: 0 days
+  Unit Cost: ₹28,000
+  Criticality: MEDIUM
+
+================================================================================
+LADLE FURNACE SPARE PARTS
+================================================================================
+
+PART: Graphite Electrode (600mm dia × 2700mm, UHP grade)
+  SAP Code: LF-ELC-600UHP
+  Availability: Low Stock (3 units)
+  Lead Time: 14 days (RAIN Industries / GrafTech)
+  Unit Cost: ₹4,20,000
+  Criticality: CRITICAL
+  Note: Consumption ~0.8 kg/tonne steel; urgent replenishment required
+
+PART: Electrode Holder (Copper contact pads set, 3 pads per phase)
+  SAP Code: LF-ELH-001
+  Availability: In Stock (2 sets)
+  Lead Time: 0 days
+  Unit Cost: ₹95,000
+  Criticality: HIGH
+  Note: Inspect monthly; replace at >2mm wear
+
+PART: Electrode Arm Bushing (Bronze, 120mm bore)
+  SAP Code: LF-EAB-001
+  Availability: Out of Stock
+  Lead Time: 30 days
+  Unit Cost: ₹65,000
+  Criticality: HIGH
+  Note: Currently causing current arcing issues — URGENT
+
+PART: Argon Stirring Lance (316 SS, 25mm dia × 2m)
+  SAP Code: LF-ARL-001
+  Availability: In Stock (12 lances)
+  Lead Time: 0 days
+  Unit Cost: ₹8,500
+  Criticality: MEDIUM
+
+PART: Slide Gate Plate (Alumina-graphite, 300mm × 300mm)
+  SAP Code: LF-SGP-001
+  Availability: In Stock (30 units)
+  Lead Time: 0 days
+  Unit Cost: ₹12,000
+  Criticality: HIGH
+
+================================================================================
+COMPRESSOR SPARE PARTS
+================================================================================
+
+PART: Air Filter Element (Atlas Copco OEM, 900 kW model)
+  SAP Code: CMP-AFE-900
+  Availability: In Stock (6 elements)
+  Lead Time: 0 days
+  Unit Cost: ₹6,500
+  Criticality: MEDIUM
+  Note: Change at ΔP >50 mbar or 2000 hours
+
+PART: Compressor Valve (Inlet guide vane actuator)
+  SAP Code: CMP-VLV-IGV
+  Availability: Low Stock (2 units)
+  Lead Time: 14 days
+  Unit Cost: ₹85,000
+  Criticality: HIGH
+
+PART: Oil Separator Element (Atlas Copco OEM)
+  SAP Code: CMP-OSE-001
+  Availability: In Stock (4 elements)
+  Lead Time: 0 days
+  Unit Cost: ₹22,000
+  Criticality: MEDIUM
+
+PART: Coupling Element (Flexible, polyurethane, 280mm)
+  SAP Code: CMP-CPL-280
+  Availability: In Stock (3 sets)
+  Lead Time: 0 days
+  Unit Cost: ₹18,500
+  Criticality: HIGH
+
+PART: Unloader Valve (Solenoid, 24VDC, 10 bar)
+  SAP Code: CMP-ULV-001
+  Availability: Out of Stock
+  Lead Time: 10 days
+  Unit Cost: ₹35,000
+  Criticality: HIGH
+  Note: Emergency order placed 2025-01-10

@@ -1,0 +1,189 @@
+STEELGUARD AI — EQUIPMENT TECHNICAL MANUALS
+Integrated Steel Plant — Equipment Maintenance Reference
+Version 2.1 | Confidential — Internal Use Only
+
+================================================================================
+SECTION 1: ROLLING MILL (SMS Group 6-Stand Tandem Hot Strip Mill)
+Capacity: 5 MTPA | Strip Width: 600–1650 mm | Exit Thickness: 1.2–25 mm
+================================================================================
+
+1.1 EQUIPMENT OVERVIEW
+The Rolling Mill comprises six finishing stands arranged in tandem. Each stand
+uses a 4-high configuration with work rolls and back-up rolls. Drive is via
+individual AC motors rated 8 MW per stand.
+
+1.2 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - Bearing Temperature (°C): Normal 60–120, Warning 121–140, Alarm >140, Trip >150
+  - Mill Vibration (mm/s RMS): Normal 0–5, Warning 5.1–7, Alarm 7.1–8, Trip >8
+  - Roll Force Hydraulic Pressure (bar): Normal 100–220, Alarm >250, Low alarm <100
+  - Main Drive Motor Current (A): Normal 200–450, Warning >450, Trip >500
+  - Roll Speed (RPM): Normal 800–1400, Max 1500, Low 800
+  - Roll Gap (mm): ±0.02 mm tolerance
+  - Strip tension (kN/m): 10–80 per stand
+
+1.3 COMMON FAILURE MODES
+  a) Work Roll Spalling: Surface cracks from thermal fatigue, cooling water contamination,
+     or overload. Symptoms: vibration spike >6 mm/s, surface marking on strip.
+     Action: Emergency roll change within 2 hours.
+  b) Bearing Failure: Progressive deterioration. Early warning: temperature rise >5°C/hour,
+     vibration change, oil analysis showing metallic particles.
+     MTBF: 4000–6000 hours depending on load.
+  c) Chock Seal Failure: Oil leakage around roll chocks, contamination of cooling water.
+     Inspect seals every 6 months.
+  d) Gear Coupling Misalignment: Vibration at 1× and 2× RPM, gear tooth wear.
+     Alignment check required after every roll change.
+  e) Loopers Hydraulic Failure: Strip tension loss, cobble risk. Inspect accumulator
+     pre-charge pressure (should be 90 bar) every PM.
+
+1.4 INSPECTION SCHEDULE
+  - Daily: Cooling water flow, bearing temperature, lubrication levels
+  - Weekly: Vibration signature analysis, roll force calibration check
+  - Monthly: Gear box oil sample, coupling alignment check
+  - Per Roll Change: Chock inspection, seal replacement if worn, bearing clearance check
+  - Annual: Full mill alignment survey, gear box overhaul assessment
+
+1.5 LUBRICATION REQUIREMENTS
+  - Roll neck bearings: ISO VG 320 gear oil, automatic lubrication, 15 L/hour per bearing
+  - Gear boxes: ISO VG 220 synthetic oil, 2000 L total, change every 8000 hours
+  - Hydraulic system: HLP 46 hydraulic oil, filter change every 2000 hours
+
+================================================================================
+SECTION 2: BLAST FURNACE (Working Volume 3200 m³, Annual Output 2.8 MT)
+================================================================================
+
+2.1 EQUIPMENT OVERVIEW
+The Blast Furnace produces pig iron by reducing iron ore with coke using hot
+blast air. Key systems: burden charging, hot blast system, gas cleaning, cast house.
+
+2.2 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - Hot Blast Temperature (°C): Normal 900–1250, Warning >1250, Alarm >1300
+  - Top Pressure (bar): Normal 1.5–4.0, Alarm >4.5, Low <1.5
+  - Burden Descent Rate (mm/min): Normal 40–110, Slow <40 (slip risk), Fast >120
+  - Oxygen Enrichment (%): Normal 2–7, Alarm >8
+  - Tuyere Temperature (°C): Normal 250–350, Warning >350
+  - Shaft Cooling Water ΔT: Normal <8°C, Alarm >12°C (cooler failure risk)
+  - Top Gas Utilisation (%CO2): Target 47–52%
+
+2.3 COMMON FAILURE MODES
+  a) Tuyere Burnout: Catastrophic failure. Causes: back-pressure surge, water leak in
+     blowpipe. Indicators: sudden blast pressure drop, tuyere temperature spike.
+     Action: Emergency tuyere change (2–4 hours, hot repair team required).
+  b) Cooler Panel Failure: Water leakage into furnace, hydrogen explosion risk.
+     Monitor cooling water pH (target 7.5–8.5) and flow rate. ΔT >15°C = immediate action.
+  c) Hanging / Slipping: Burden sticks then suddenly descends. Causes: low permeability,
+     moisture spike, incorrect burden distribution.
+     Response: Reduce blast volume 10%, increase oxygen, check burden profile.
+  d) Scaffold Formation: Irregular accretions on furnace walls. Symptoms: asymmetric gas
+     distribution, erratic burden descent.
+  e) Tap Hole Problems: Short cast time (<30 min), thin iron stream indicates tap hole erosion.
+     Clay gun maintenance critical — inspect daily.
+
+2.4 SAFETY NOTES
+  - CO gas present throughout operation — personal CO detector mandatory
+  - Hot metal temperature typically 1480–1520°C
+  - PTW required for all work within 10m of tap hole during casting
+  - Tuyere platform: hearing protection mandatory (>95 dB)
+
+================================================================================
+SECTION 3: CONTINUOUS CASTING MACHINE (CCM — 4-strand slab caster)
+Slab size: 200–250 mm × 900–1650 mm | Speed: 0.8–2.5 m/min
+================================================================================
+
+3.1 EQUIPMENT OVERVIEW
+The CCM converts liquid steel from the ladle via tundish into solidified slabs.
+Key systems: tundish, mold, secondary cooling, strand guide, cut-off.
+
+3.2 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - Tundish Temperature (°C): Normal 1480–1550, Warning >1550, Alarm >1560 (overflow risk)
+  - Casting Speed (m/min): Normal 0.8–2.3, Max 2.5, Emergency stop if oscillation fault
+  - Mold Cooling Water Flow (L/min): Normal 1200–1900, Low Alarm <1200, High Alarm >2000
+  - Mold Level (mm from top): Target 100±10 mm, Alarm ±20 mm
+  - Mold Vibration (mm/s): Normal 0–4, Alarm >5
+  - Strand Guide Roll Gap: ±0.5 mm tolerance from designed taper
+  - Secondary Cooling Water: Zone-by-zone control ±5% of setpoint
+
+3.3 COMMON FAILURE MODES
+  a) Breakout: Solidified shell rupture causing molten steel spillage.
+     Causes: mold level fluctuation, cold steel, incorrect taper.
+     Prevention: Breakout prediction system monitoring, mold thermocouple array.
+  b) SEN Clogging: Submerged entry nozzle blocked by alumina build-up.
+     Symptoms: asymmetric mold level, increased casting speed variation.
+     Action: Argon injection increase, SEN change if not resolved within 5 min.
+  c) Mold Copper Wear: Reduced heat extraction, taper mismatch.
+     Inspect mold copper plates every 150–200 heats; replace at 3mm wear.
+  d) Segment Roll Bearing Failure: Loss of strand guidance.
+     Vibration monitoring, replace at MTBF 6000 hours.
+  e) Secondary Cooling Nozzle Blockage: Uneven solidification, internal cracks.
+     Inspect and clean nozzles every planned maintenance stop.
+
+3.4 INSPECTION SCHEDULE
+  - Per heat: Tundish temperature, mold level control, SEN condition
+  - Daily: Mold copper surface inspection, oscillation check, roll alignment
+  - Weekly: All zone cooling water flow calibration
+  - Per campaign: Full mold change, segment withdrawal and inspection
+
+================================================================================
+SECTION 4: HYDRAULIC SYSTEM (Central Hydraulic Power Unit)
+System Pressure: 150–300 bar | Oil Volume: 5000 L | Flow: up to 500 L/min
+================================================================================
+
+4.1 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - System Pressure (bar): Normal 150–280, Low Alarm <150, High Alarm >300
+  - Oil Temperature (°C): Normal 30–65, Warning >65, Alarm >70 (viscosity breakdown)
+  - Reservoir Oil Level (%): Normal 60–100, Low Alarm <60
+  - Filter Differential Pressure (bar): Change filter at ΔP >3.5 bar
+  - Flow Rate (L/min): Varies by demand; low flow alarm indicates pump wear
+  - Oil Contamination (NAS class): Target NAS 8, Alarm NAS 10+
+
+4.2 COMMON FAILURE MODES
+  a) Pump Wear: Reduced flow, increased noise, pressure fluctuations.
+     Check pump efficiency quarterly; replace at <85% volumetric efficiency.
+  b) Seal Failure: External leaks, pressure loss.
+     Inspect all cylinder seals monthly; hydraulic fluid HLP 46 preferred.
+  c) Valve Sticking: Proportional valve contamination from dirty oil.
+     Oil cleanliness critical — change filters per schedule.
+  d) Overheating: High ambient temperature, clogged heat exchanger.
+     Check cooler fins monthly; clean with compressed air.
+
+================================================================================
+SECTION 5: LADLE FURNACE (Power: 10–40 MW, Electrode diameter: 500mm)
+================================================================================
+
+5.1 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - Steel Temperature (°C): Normal 1500–1640, Alarm >1650 (ladle refractory risk)
+  - Arc Current (kA): Normal 20–48, Trip >50 (electrode risk)
+  - Argon Stirring Flow (NL/min): Normal 300–1100, Min 300 (inadequate stirring)
+  - Power (MW): Controlled 10–38, Alarm >40
+  - Electrode Position: Auto-regulated; alarm if electrode arm hydraulic fault
+
+5.2 COMMON FAILURE MODES
+  a) Electrode Breakage: Thermal shock from cold scrap, electrode thread defect.
+     Inspect electrode threads every heat; crack detection dye testing monthly.
+  b) Electrode Arm Bushing Wear: Current arcing, overheating.
+     Inspect copper contact pads monthly; replace at >2 mm wear.
+  c) Argon Lance Blockage: Poor stirring, thermal stratification.
+     Purge argon lance before each heat; replace per 20 heats.
+  d) Refractory Erosion: High steel temperature, aggressive slag composition.
+     Laser profiling every 20 heats; critical at <100 mm remaining thickness.
+
+================================================================================
+SECTION 6: COMPRESSOR (Atlas Copco ZR 900, Oil-free centrifugal, 900 kW)
+================================================================================
+
+6.1 CRITICAL SENSOR PARAMETERS & ALARM LIMITS
+  - Discharge Pressure (bar): Normal 6–9.5, Alarm >10
+  - Discharge Temperature (°C): Normal 30–90, Alarm >100
+  - Vibration (mm/s): Normal 0–4, Warning >4, Alarm >5
+  - Motor Current (A): Normal 50–140, Alarm >150
+  - Speed (RPM): Normal 2950–3050, Trip if deviation >50 RPM from setpoint
+  - Air Filter Differential Pressure: Change at ΔP >50 mbar
+
+6.2 COMMON FAILURE MODES
+  a) Surge: Unstable operation, flow reversal. Causes: demand drop, valve malfunction.
+     Anti-surge valve must be functional — test weekly.
+  b) Bearing Failure: Vibration increase, temperature rise.
+     MTBF 20,000 hours; vibration monitoring continuous.
+  c) Air Valve Failure: Pressure fluctuation, capacity loss.
+     Inspect inlet guide vanes quarterly.
+  d) Motor Winding Failure: Insulation degradation from moisture or overload.
+     Insulation resistance test annually (>100 MΩ).

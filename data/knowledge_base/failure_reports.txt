@@ -1,0 +1,178 @@
+STEELGUARD AI — EQUIPMENT FAILURE REPORTS & INCIDENT ANALYSIS
+Integrated Steel Plant — Maintenance Department
+Document Type: Historical Failure Database | Confidential
+
+================================================================================
+FAILURE REPORT FR-2025-0041
+Equipment: Rolling Mill — Stand F3 (Finishing Mill)
+Date: 2025-09-15 | Shift: B | Duration: 4.2 hours
+Severity: HIGH | Classification: Bearing Failure
+Reported By: Eng. Suresh Kumar
+================================================================================
+
+INCIDENT DESCRIPTION:
+At 14:32, vibration alarm triggered on Stand F3 drive side bearing at 7.2 mm/s
+(alarm set at 7.0 mm/s). Bearing temperature rose from 85°C to 127°C over
+45 minutes. Production was halted at 15:15 when vibration reached 7.8 mm/s.
+
+ROOT CAUSE ANALYSIS:
+1. Primary cause: Lubricant contamination by process water ingress through
+   worn chock seal (observed during disassembly — seal had swollen and cracked)
+2. Contributing factor: Last bearing inspection 3800 hours prior vs. 3000-hour
+   PM schedule (overdue by 800 hours due to production pressure)
+3. Water contamination caused lubricant emulsification — oil analysis post-event
+   showed water content 2800 ppm (limit: 200 ppm) and NAS 12 particle count
+4. Accelerated bearing fatigue — spalling observed on inner race
+
+FINDINGS:
+- SKF 22230 E/C3 bearing inner race: fatigue spalling over 40% of surface
+- Chock seal: worn through, water ingress channel confirmed
+- Gear box oil: not contaminated (isolated system)
+
+CORRECTIVE ACTIONS TAKEN:
+1. Emergency roll change and bearing replacement (16:15–18:25)
+2. Chock seal replaced on both drive and operator sides
+3. Bearing housing cleaned and reflushed with clean oil
+4. Emergency oil analysis confirmed clean after refill
+
+PREVENTIVE ACTIONS:
+1. PM interval reduced to 2500 hours for chock seal inspection
+2. Chock seal upgraded to double-lip design (implemented across all 6 stands)
+3. Oil sampling frequency increased to bi-weekly
+4. Vibration alarm threshold adjusted to 6.5 mm/s (earlier warning)
+
+COST IMPACT: Production loss ~₹85 lakhs | Repair cost ₹3.2 lakhs
+
+LESSONS LEARNED:
+- Seal condition inspection is more critical than bearing inspection
+- Water contamination is the primary driver of bearing failure in this application
+- Respect PM schedules even during high production periods
+
+================================================================================
+FAILURE REPORT FR-2025-0052
+Equipment: Blast Furnace — Tuyere Position 14 (West side)
+Date: 2025-10-08 | Shift: A | Duration: 1.1 hours (tuyere change)
+Severity: CRITICAL | Classification: Tuyere Burnout
+Reported By: Shift Manager Rajeev Nair
+================================================================================
+
+INCIDENT DESCRIPTION:
+At 04:18 (night shift), rapid blast pressure drop observed from 3.8 bar to 2.1 bar
+over 8 minutes. Tuyere cooling water outlet temperature at position 14 spiked to
+52°C (normal <35°C). Shift manager initiated tuyere burnout protocol.
+Hot metal and slag expelled from tuyere 14 blowpipe joint.
+
+ROOT CAUSE ANALYSIS:
+1. Primary cause: Water ingress into tuyere copper body from cooling water line
+   micro-crack (fatigue crack due to thermal cycling — tuyere age: 78 days)
+2. Contributing factor: Previous maintenance record showed tuyere 14 had minor
+   water leak at cooling port repaired 30 days ago — insufficient repair
+3. Contributing factor: Blast temperature running at 1280°C (upper limit)
+   increased thermal stress on tuyere copper
+
+FINDINGS:
+- Tuyere body: catastrophic failure, copper melted at nose
+- Cooling water micro-crack confirmed via dye penetrant testing of similar age tuyeres
+- 3 other tuyeres of similar age (>60 days) identified for precautionary replacement
+
+CORRECTIVE ACTIONS TAKEN:
+1. Blast reduced to minimum, tuyere 14 blast valve closed
+2. Tuyere change completed in 52 minutes (record time — well-practiced crew)
+3. Adjacent tuyeres 13 and 15 inspected — no defects found
+4. Tuyeres 7, 18, 22 (all >65 days old) replaced as precaution
+
+PREVENTIVE ACTIONS:
+1. Tuyere life limit reduced from 90 days to 70 days
+2. Cooling water outlet temperature monitoring alarm tightened to 40°C
+3. Any repaired tuyere to be replaced within 21 days of repair
+4. Weekly dye penetrant testing on tuyeres >50 days old
+
+COST IMPACT: Production interruption 1.1 hours (~₹35 lakhs) | Safe incident — no injuries
+
+================================================================================
+FAILURE REPORT FR-2025-0063
+Equipment: Continuous Caster — CCM Strand 2
+Date: 2025-11-20 | Shift: C | Duration: 6.5 hours (cleanup and restart)
+Severity: CRITICAL | Classification: Breakout
+Reported By: CCM Shift Supervisor Anita Bose
+================================================================================
+
+INCIDENT DESCRIPTION:
+At 22:45, mold level fluctuation detected (±25mm vs. normal ±10mm). Casting speed
+was reduced from 1.8 m/min to 1.2 m/min per automatic control. At 22:51, mold level
+suddenly dropped to zero — breakout prediction system alerted. At 22:53, molten steel
+spillage confirmed at segment 4 (approximately 8m below mold). Emergency stop activated.
+
+ROOT CAUSE ANALYSIS:
+1. Primary cause: SEN (submerged entry nozzle) partial blockage by alumina deposit
+   causing asymmetric flow and turbulent mold level
+2. Contributing factor: Steel chemistry showed high Al content (0.048% vs. target 0.030%)
+   from Ladle Furnace — increased alumina formation rate
+3. Contributing factor: Argon injection to SEN was at lower end of range (2.0 NL/min
+   vs. recommended 3–6 NL/min) — insufficient to prevent clogging
+4. The combination of high Al, low Ar, and nozzle age (1.9 heats) created rapid clogging
+   that shifted from manageable to critical in <6 minutes
+
+FINDINGS:
+- SEN post-incident: 60% bore blocked by alumina skull
+- Mold copper plates: scratched but within repair limits (0.8mm wear, limit 3mm)
+- Strand guide segments 3–5: minor shell adherence cleaned off, no roll damage
+- Spillage volume estimated: ~2.5 tonnes of steel solidified in secondary cooling zone
+
+CORRECTIVE ACTIONS TAKEN:
+1. Emergency stop and evacuation — no injuries
+2. 6.5 hours to solidify, clean, and restart
+3. Mold inspection: plates cleaned, taper re-measured and re-set
+4. All segments 1–10 inspected: segment 4 roll bearings replaced (heat damage)
+
+PREVENTIVE ACTIONS:
+1. SEN change interval reduced from 2.5 heats to 2.0 heats
+2. Argon flow to SEN minimum setpoint increased from 2.0 to 4.0 NL/min
+3. Al content target tightened: alarm if >0.040%, casting speed reduction if >0.045%
+4. Mold level alarm tightened: ±15mm triggers speed reduction, ±20mm triggers stop
+
+COST IMPACT: Production loss 6.5 hours (~₹2.1 crores) | Repair cost ₹18 lakhs
+
+================================================================================
+FAILURE REPORT FR-2025-0071
+Equipment: Compressor — Air Station 2 (Atlas Copco ZR 900)
+Date: 2025-12-01 | Shift: A | Duration: 3 hours
+Severity: HIGH | Classification: Bearing Failure — Drive End
+Reported By: Utility Engineer Mohit Sharma
+================================================================================
+
+INCIDENT DESCRIPTION:
+Compressor vibration monitoring system (continuous) showed progressive increase
+in drive-end bearing vibration from baseline 1.8 mm/s to 4.6 mm/s over 3 weeks.
+On 2025-12-01 at 06:22, vibration spike to 5.4 mm/s triggered automatic trip.
+Compressor shut down safely. Workshop air pressure fell to 5.5 bar (minimum 6 bar).
+
+ROOT CAUSE ANALYSIS:
+1. Primary cause: Angular contact bearing (SKF 7318 BECBM) fatigue failure
+   — inner race crack propagating to surface spalling
+2. Contributing factor: Bearing had accumulated 22,400 hours (manufacturer limit 20,000 hours)
+   — change was overdue by ~2,400 hours
+3. Contributing factor: Bearing re-lubrication interval not followed
+   (should be every 2000 hours; last done at 19,200 hours — 3200 hours overdue)
+4. Vibration trend data shows early warning was available at 20 days prior but
+   no formal trend review meeting was held in that period
+
+FINDINGS:
+- Drive-end bearing: inner race cracked, 3 rolling elements damaged
+- Non-drive end bearing: slight discolouration — replaced as precaution
+- Motor insulation resistance: 320 MΩ — acceptable
+- Coupling: no damage
+
+CORRECTIVE ACTIONS TAKEN:
+1. Both bearings replaced (drive end and non-drive end)
+2. Oil changed (compressor oil — Atlas Copco Roto Fluid 8000)
+3. Full mechanical inspection: no other damage found
+4. Compressor returned to service after 3-hour repair
+
+PREVENTIVE ACTIONS:
+1. Bearing life tracking added to CMMS — alert at 18,000 hours (20% before limit)
+2. Re-lubrication schedule strictly entered in CMMS: every 1500 hours
+3. Weekly vibration trend review meeting established
+4. Vibration alarm threshold adjusted: Warning 3.5 mm/s, Trip 5.0 mm/s
+
+COST IMPACT: 3-hour downtime | Compressed air rationing to workshop | ₹4.5 lakhs total

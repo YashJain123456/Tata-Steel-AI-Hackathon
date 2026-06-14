@@ -1,0 +1,210 @@
+STEELGUARD AI — STANDARD OPERATING PROCEDURES (SOPs)
+Integrated Steel Plant — Maintenance Department
+Document Control: Rev 4.2 | Approved: Chief Maintenance Engineer
+
+================================================================================
+SOP-RM-001: ROLLING MILL — WORK ROLL CHANGE PROCEDURE
+Equipment: Hot Strip Mill Finishing Stands F1–F6
+Frequency: As required (typically every 60–90 km rolled)
+PTW Required: YES | LOTO Required: YES
+Time Required: 45–90 minutes per stand
+================================================================================
+
+PREREQUISITES:
+- Permit to Work (PTW) approved by Shift Manager
+- LOTO applied on stand drive, hydraulic system, cooling water
+- Roll change crane inspected and certified
+- Replacement rolls pre-heated to 40–60°C
+- Chock inspection completed on replacement rolls
+
+STEP 1: PREPARATION (15 min)
+  1.1 Notify Production to reduce speed and cobble the strip tail
+  1.2 Apply LOTO tag on all 6 energy isolation points (electrical, hydraulic, pneumatic)
+  1.3 Release hydraulic roll force to zero
+  1.4 Lower roll gap to maximum open position
+  1.5 Connect roll change car to stand (auto-coupling)
+
+STEP 2: ROLL EXTRACTION (20 min)
+  2.1 Engage roll change car coupling to work roll chock
+  2.2 Retract work roll assembly (operator cabin push-button)
+  2.3 Transfer worn roll assembly to roll storage via overhead crane
+  2.4 Inspect housing liners for wear (replace if groove depth >2mm)
+  2.5 Clean housing window with compressed air and wipe
+
+STEP 3: ROLL INSERTION (20 min)
+  3.1 Collect pre-inspected replacement roll assembly from storage
+  3.2 Verify chock serial number against roll schedule
+  3.3 Apply fresh lubrication to chock sliding surfaces (Molykote paste)
+  3.4 Insert roll assembly via roll change car (controlled speed <5 mm/s)
+  3.5 Lock chock clamps (torque: 800 Nm)
+  3.6 Re-engage hydraulic connections (verify no leak — zero pressure first)
+
+STEP 4: COMMISSIONING (15 min)
+  4.1 Remove LOTO (authorised person only)
+  4.2 Raise hydraulic pressure to 50% working pressure — check for leaks
+  4.3 Raise to 100% working pressure
+  4.4 Set roll gap to pass schedule (auto-positioning)
+  4.5 Run stand at 50% speed for 2 minutes — verify bearing temperatures
+  4.6 Increase to full production speed
+  4.7 Monitor first 3 strips for flatness and surface quality
+
+SIGN-OFF: Maintenance Engineer signature required. Log entry in CMMS.
+
+================================================================================
+SOP-RM-002: ROLLING MILL — GEAR BOX OIL SAMPLING PROCEDURE
+Frequency: Monthly
+PTW Required: NO | LOTO Required: NO (sampling port only)
+================================================================================
+
+STEP 1: Allow gear box to reach operating temperature (oil temp >40°C)
+STEP 2: Flush sampling port with 100 mL of oil before taking sample
+STEP 3: Collect 500 mL in clean, labelled sample bottle
+STEP 4: Record: equipment ID, gear box ID, sample date, oil hours run
+STEP 5: Submit to laboratory within 4 hours for:
+  - Viscosity at 40°C and 100°C
+  - Water content (Karl Fischer, target <200 ppm)
+  - Particle count (NAS class, target NAS 9 or better)
+  - Wear metals: Fe, Cu, Cr, Pb, Al, Sn
+  - Additive metals: Zn, P, Ca, Mg
+STEP 6: Report results to Maintenance Planner; schedule oil change if Fe >50 ppm
+        or water >500 ppm.
+
+================================================================================
+SOP-BF-001: BLAST FURNACE — TUYERE CHANGE PROCEDURE (HOT)
+Equipment: Blast Furnace Tuyere (any of 28 positions)
+PTW Required: YES | LOTO Required: PARTIAL (blast valve closed)
+Time Required: 45 minutes per tuyere
+Minimum crew: 4 persons (1 supervisor, 2 fitters, 1 safety observer)
+================================================================================
+
+WARNING: This is a hot work procedure. Iron temperature >1500°C. PPE mandatory:
+- Full face shield with shade 5 filter
+- Aluminised suit
+- Leather gloves + kevlar gloves
+- Safety boots (steel toe, heat resistant)
+- Personal CO detector (alarm at 25 ppm)
+
+STEP 1: ISOLATION
+  1.1 Request production to reduce blast to minimum (200 Nm³/min)
+  1.2 Close individual tuyere blast valve (verified closed by supervisory panel)
+  1.3 Open cooling water vent on blowpipe
+  1.4 Verify no blast flow with portable anemometer
+
+STEP 2: TUYERE REMOVAL
+  2.1 Disconnect blowpipe from tuyere (blowpipe support in place)
+  2.2 Using tuyere extraction tool, apply heat to joint (propane torch)
+  2.3 Apply 5-ton hydraulic jack to extract tuyere
+  2.4 Immediately quench extracted tuyere in water bath (extreme heat caution)
+
+STEP 3: INSPECTION & REPLACEMENT
+  3.1 Inspect tuyere seat — clean with copper brush
+  3.2 Check cooling water ports in nose — flush with water (no obstruction)
+  3.3 Insert new tuyere with fresh graphite rope seal
+  3.4 Torque to 2500 Nm with calibrated torque wrench
+
+STEP 4: REINSTATEMENT
+  4.1 Reconnect blowpipe — check alignment (tolerance ±5mm)
+  4.2 Open tuyere blast valve slowly (30 seconds full open)
+  4.3 Verify blast flow restored
+  4.4 Monitor cooling water outlet temperature for 10 minutes (should stabilise <35°C)
+
+================================================================================
+SOP-HYD-001: HYDRAULIC OIL CHANGE PROCEDURE
+Equipment: Central Hydraulic Power Unit
+Frequency: Every 4000 hours or oil analysis trigger
+PTW Required: YES
+Time Required: 4 hours
+================================================================================
+
+STEP 1: Depressurise system (dump accumulators via dump valve — verify 0 bar)
+STEP 2: Connect oil drain hose to reservoir drain port
+STEP 3: Drain full reservoir volume (approx. 5000 L) into oil drum for disposal
+STEP 4: Flush reservoir with 500 L clean flushing oil; agitate and drain
+STEP 5: Replace ALL filter elements (suction, return, high-pressure)
+STEP 6: Replace breather filter on reservoir
+STEP 7: Inspect reservoir interior with torch — remove any sludge
+STEP 8: Fill with new HLP 46 oil (verify ISO grade and cleanliness certificate NAS 6)
+STEP 9: Prime pump (open suction isolation fully before start)
+STEP 10: Start pump at low pressure — cycle all cylinders 3 times
+STEP 11: Take oil sample and submit for cleanliness verification
+STEP 12: Update CMMS oil change record with volume, brand, batch number
+
+================================================================================
+SOP-LF-001: LADLE FURNACE — ELECTRODE CHANGE
+Equipment: Ladle Furnace, Electrode mast (A, B or C phase)
+PTW Required: YES | LOTO Required: YES (HV transformer isolated)
+Time Required: 30 minutes
+================================================================================
+
+SAFETY: HV transformer must be de-energised and earthed before any electrode work.
+Electrode can be at >600°C after heat — allow cool-down or use asbestos gloves.
+
+STEP 1: Raise electrode to maximum position
+STEP 2: Apply LOTO on HV transformer MCC
+STEP 3: Apply electrode arm locking pin (prevents gravitational drop)
+STEP 4: Unscrew stub nipple connection (anti-clockwise, threaded joint)
+STEP 5: Lower worn electrode stub to safe position and remove with crane
+STEP 6: Thread new electrode onto stub — torque 800 Nm (anti-seize compound)
+STEP 7: Inspect contact pad on electrode holder — replace if worn >2 mm
+STEP 8: Remove locking pin, lower electrode to working position
+STEP 9: Remove LOTO, energise transformer
+STEP 10: Verify arc striking on first heat — check current balance all 3 phases
+
+================================================================================
+SOP-CCM-001: CONTINUOUS CASTER — EMERGENCY BREAKOUT RESPONSE
+Time Critical: Immediate response required
+PTW Required: NO (emergency procedure)
+================================================================================
+
+IMMEDIATE ACTIONS (first 30 seconds):
+  1. Press EMERGENCY STOP on caster control pulpit
+  2. Alert shift manager via radio: "Breakout at CCM, strand [X]"
+  3. Do NOT approach the breakout zone — molten steel hazard
+  4. Close tundish slide gate (manual override if auto fails)
+  5. Activate emergency water spray on breakout zone
+
+WITHIN 5 MINUTES:
+  6. Confirm all personnel evacuated from casting floor
+  7. Activate CO2 / nitrogen purge on secondary cooling zone
+  8. Assign two experienced operators to observe — report to shift manager
+
+WITHIN 30 MINUTES:
+  9. Allow steel to solidify (minimum 20 minutes before approach)
+  10. Incident commander to lead inspection team (PPE: aluminised suit)
+  11. Document: strand number, casting speed at time, tundish temp, mold level trend
+  12. Prepare breakout investigation report within 4 hours
+
+POST-EVENT:
+  - Mold copper inspection and replacement if scored
+  - Segment roll inspection in affected zone
+  - Root cause analysis before restart
+  - Breakout prediction system recalibration
+
+================================================================================
+SOP-COMP-001: COMPRESSOR — STARTUP PROCEDURE (AFTER MAINTENANCE)
+================================================================================
+
+PRE-START CHECKS:
+  □ All maintenance tags removed
+  □ Oil level correct (sight glass 60–80%)
+  □ Inlet air filter clean (ΔP <30 mbar)
+  □ Anti-surge valve functional (manual test)
+  □ Cooling water flow confirmed (inlet temp <30°C)
+  □ Safety relief valve tested (set at 10.5 bar)
+
+STARTUP SEQUENCE:
+  1. Start cooling water pump — verify flow >200 L/min
+  2. Start oil pump — verify oil pressure >2.5 bar
+  3. Start motor at no-load (inlet guide vanes fully closed)
+  4. After 30 seconds: open inlet guide vanes to 30%
+  5. Monitor vibration (must be <3 mm/s at startup)
+  6. Gradually open to demand setpoint over 2 minutes
+  7. Verify discharge pressure reaches setpoint (typically 8 bar)
+  8. Log startup time and initial readings in logbook
+
+SHUTDOWN SEQUENCE:
+  1. Close inlet guide vanes to minimum
+  2. Open anti-surge valve
+  3. Stop motor
+  4. After 5 minutes: stop oil pump (allow bearing cool-down)
+  5. Close cooling water after oil temp <40°C

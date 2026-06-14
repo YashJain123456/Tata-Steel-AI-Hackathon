@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-community
+chromadb
+sentence-transformers
+scikit-learn
+pandas
+numpy
+plotly
+python-dotenv
+faker
+pypdf
+requests
